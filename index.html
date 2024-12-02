@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Text Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="toolbar">
+    <input type="text" id="text-input" placeholder="Enter text here">
+    <button id="add-text">Add Text</button>
+    <button id="undo">Undo</button>
+    <button id="redo">Redo</button>
+    <label for="font-size">Font Size:</label>
+    <input type="number" id="font-size" value="16" min="10" max="72">
+  </div>
+  <canvas id="canvas" width="800" height="400"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
